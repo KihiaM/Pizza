@@ -11,3 +11,21 @@
    background-repeat: no-repeat;
    background-size: cover;
 }
+
+.header.text{
+  color: white;
+}
+
+.bg2{
+  /* The image used */
+  background-image: url("/images/menu-3206749_1920.jpg");
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
