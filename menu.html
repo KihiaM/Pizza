@@ -41,33 +41,43 @@
 <div class="container-fluid padding">
   <div class="row text-center">
     <div class="col-12">
+      <form id="order">
         <h3>Make your own pizza!!!</h3>
         <h4>Size: </h4>
-        <input type="radio"> Small (200Ksh)<br>
-        <input type="radio"> Medium (400Ksh)<br>
-        <input type="radio"> Large (600Ksh)<br>
+        <input type="radio" name="size" class="size" id="size-s" value=200 required /> Small (200Ksh)<br>
+        <input type="radio" name="size" class="size" id="size-m" value=400 required /> Medium (400Ksh)<br>
+        <input type="radio" name="size" class="size" id="size-l" value=600 required /> Large (600Ksh)<br>
         <br>
 
         <h4>Crust: </h4>
-        <input type="radio"> Thick <br>
-        <input type="radio"> Thin <br>
-        <input type="radio"> Cheese Stuffed (100Ksh)<br>
+        <input type="radio" name="crusts" class="crust" value=0 required /> Thick 
+        <input type="radio" name="crusts" class="crust" value=0 required /> Thin 
+        <input type="radio" name="crusts" class="crust" id="stuffed" value=100 required /> Cheese Stuffed (100Ksh)<br>
         <br>
 
         <h4>Toppings (100Ksh each):</h4>
-        <input type="checkbox"> Mozarella <br>
-        <input type="checkbox"> Salami <br>
-        <input type="checkbox"> Bacon <br>
-        <input type="checkbox"> Minced meat <br>
-        <input type="checkbox"> Chicken BBQ <br>
-        <input type="checkbox"> Pepper Steak <br>
-        <input type="checkbox"> Pineapples <br>
-        <input type="checkbox"> Tuna <br>
-        <input type="checkbox"> Onions <br>
-        <input type="checkbox"> Mushrooms <br>
-
+        <input type="checkbox" class="toppings" name="topping" value=100> Mozarella <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Salami <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Bacon <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Minced meat <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Chicken BBQ <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Pepper Steak <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Pineapples <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Tuna <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Onions <br>
+        <input type="checkbox" class="toppings" name="topping" value=100> Mushrooms <br>
+        <br>
+      
         <h4>Delivery</h4>
-        <input type="radio"> Yes
+        <input type="radio" name="deliver" class="delivery" id="delivery" value=200 required /> Yes
+        <input type="radio" name="deliver" class="delivery" id="delivery2" value=0 required /> No
+        <br>
+        <br>
+
+        <button type="submit">Place Your Order</button>
+
+      </form>
+      <h5>TOTAL: </h5><div id="output"></div>
 <hr>
 
 
