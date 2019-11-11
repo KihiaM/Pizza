@@ -1,5 +1,6 @@
 document.getElementsByClassName("toppings").value = 100;
 document.getElementById("delivery").value = 200;
+document.getElementById("delivery2").value = 0;
 document.getElementById("stuffed").value = 100;
 document.getElementById("size-s").value = 200;
 document.getElementById("size-m").value = 400;
