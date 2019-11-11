@@ -1,6 +1,6 @@
 .bg1{
    /* The image used */
-   background-image: url("/css/images/pizza-on-brown-wooden-board-825661.jpg");
+   background-image: url("../css/images/pizza-on-brown-wooden-board-825661.jpg");
 
 
    /* Full height */
@@ -16,10 +16,8 @@
   color: white;
 }
 
-.bg2{
-  /* The image used */
-  background-image: url("/images/menu-3206749_1920.jpg");
-
+.back{
+  
 
   /* Full height */
   height: 100%;
