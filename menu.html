@@ -51,7 +51,7 @@
         <br>
 
         <h4>Crust: </h4>
-        <div class="funkyradio-primary"><input type="radio" name="crusts" class="crust" value=0 required /> Thick 
+        <input type="radio" name="crusts" class="crust" value=0 required /> Thick 
         <input type="radio" name="crusts" class="crust" value=0 required /> Thin 
         <input type="radio" name="crusts" class="crust" id="stuffed" value=100 required /> Cheese Stuffed (100Ksh)<br>
         <br>
@@ -70,12 +70,12 @@
         <br>
       
         <h4>Delivery</h4>
-        <input type="radio" name="deliver" class="delivery" id="delivery" value=200 required /> Yes
+        <input type="radio" name="deliver" class="delivery" id="delivery" value=200 onclick="myLocation()" required /> Yes
         <input type="radio" name="deliver" class="delivery" id="delivery2" value=0 required /> No
         <br>
         <br>
 
-        <button type="submit" class="btn btn-outline-primary">Place Your Order</button>
+        <button type="submit" class="btn btn-outline-primary" onclick="myOrder()">Place Your Order</button>
 
       </form>
       <h5>TOTAL: </h5><div id="output"></div> Ksh

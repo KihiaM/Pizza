@@ -15,6 +15,8 @@ $(document).ready(function() {
     let newTotal = add(pizzaSize, pizzaCrust, pizzaDelivery, pizzaToppings);
     $("#output").text(newTotal);
     console.log(pizzaToppings);
+
+    
   });
   });
 

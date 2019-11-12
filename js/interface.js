@@ -11,4 +11,13 @@ var add = function(pizzaSize, pizzaCrust, pizzaDelivery, pizzaToppings) {
   return pizzaSize + pizzaCrust + pizzaDelivery + parseInt(pizzaToppings);
 };
 
+function myLocation() {
+  var location = prompt("Please enter your location");
+}
+
+function myOrder() {
+  if ("input[name=deliver]:checked") {
+    alert("Thank you for your order. It will be delivered to your location");
+  }
+}
 
