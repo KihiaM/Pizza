@@ -13,7 +13,24 @@
 }
 
 .header-text{
+  position: relative;
+}
+
+.create{
+  margin-top: 150px;
+  margin-left: 500px;
+}
+
+.welcome{
+  font-family: 'Dancing Script', cursive;
+  color: red;
+  font-size: 100px;
+}
+
+.restaurant{
+  font-family: 'Domine', serif;
   color: white;
+  font-size: 150px;
 }
 
 .back{
@@ -30,5 +47,6 @@
 
 #order{
   font-display: black;
+  font-family: 'Roboto', sans-serif;
 }
 
